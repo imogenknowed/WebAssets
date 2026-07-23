@@ -10,25 +10,42 @@
     width: 100%;
     gap: 8px;
   }
+
   .mobile-row a {
     flex: 1; /* Forces all 4 slots to keep equal size */
     display: block;
   }
+
   .mobile-row img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 4px; /* Optional rounded edges */
+    border-radius: 4px;
+  }
+
+  /* Full-width character art underneath */
+  .character-art {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .character-art img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 </style>
 </head>
+
 <body>
 
+<!-- Book Covers -->
 <div class="mobile-row">
-  <!-- Gage-->
+
+  <!-- Gage -->
   <a href="https://books.imogenknowed.com/26ia5vqe19" target="_blank">
-     <img src="https://imogenknowed.github.io/WebAssets/BookCovers/DropShadows/TOSDropShadow1.png"
-     alt="Gage">
+    <img src="https://imogenknowed.github.io/WebAssets/BookCovers/DropShadows/TOSDropShadow1.png"
+    alt="Gage">
   </a>
   
   <!-- Marc -->
@@ -48,6 +65,13 @@
     <img src="https://imogenknowed.github.io/WebAssets/BookCovers/DropShadows/TOSDropShadow4.png"
     alt="Drew">
   </a>
+
+</div>
+
+<!-- Character Art -->
+<div class="character-art">
+  <img src="https://imogenknowed.github.io/WebAssets/CharacterArt/TOSCharacters.png"
+  alt="Characters">
 </div>
 
 </body>
